@@ -31,7 +31,7 @@ void read_directory(string &name, vector<string> &v)
 int main_1()
 {
     vector<string> v;
-    string read_dir = "C:\Users\HP\OneDrive\Desktop\T2\T2-IMAGES";
+    string read_dir = "C:\Users\HP\OneDrive\Desktop\T2\T2-IMAGES";  \\add your own read and write direction according to your system
     string write_dir = "C:\Users\HP\OneDrive\Desktop\T2\result.txt";
     read_directory(read_dir, v);
 
