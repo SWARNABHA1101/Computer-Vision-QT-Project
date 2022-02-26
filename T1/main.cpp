@@ -31,7 +31,7 @@ void read_directory(string &name, vector<string> &v)
 int main_1()
 {
     vector<string> v;
-    string read_dir = "C:\Users\HP\OneDrive\Desktop\FrameWork\T1";
+    string read_dir = "C:\Users\HP\OneDrive\Desktop\FrameWork\T1";      //add your own read and write direction according to your system
     string write_dir = "C:\Users\HP\OneDrive\Desktop\FrameWork\output.txt";
     read_directory(read_dir, v);
 
@@ -60,7 +60,7 @@ int main_1()
 
         // ADD YOUR CODE HERE
         // Read Image
-        Mat img = imread("C:\Users\HP\OneDrive\Desktop\FrameWork\T1\09-08-2021_11_07_29img_84.jpg");
+        Mat img = imread("C:\Users\HP\OneDrive\Desktop\FrameWork\T1\09-08-2021_11_07_29img_84.jpg");  
         cout << "Width : " << img.size().width << endl;
         cout << "Height: " << img.size().height << endl;
         cout << "Channels: :" << img.channels() << endl;
